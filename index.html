@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="game-control">
+        <button>أبداء اللعبه</button>
+        <div class="msg" id="msg">اكتب اسمك الاول ياسطي</div>
+    </div>
+    <div class="info-container">
+        <div class="name"><span></span></div>
+        <div class="wrong">عدد الاخطاء: <span>0</span> من 20</div>
+    </div>
+    <div class="game-blocks">
+        <div class="block" data-number="one">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (7).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="one">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (7).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <!-- Tow -->
+        <div class="block" data-number="two">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (8).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="two">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (8).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <!-- three -->
+        <div class="block" data-number="three">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (9).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="three">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (9).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <!-- four -->
+        <div class="block" data-number="four">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (10).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="four">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (10).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <!-- Five -->
+        <div class="block" data-number="five">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (11).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="five">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (11).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="six">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (12).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="six">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (12).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <!-- Tow -->
+        <div class="block" data-number="seven">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (13).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="seven">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (13).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <!-- three -->
+        <div class="block" data-number="eat">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (14).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="eat">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (14).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <!-- four -->
+        <div class="block" data-number="nigin">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (15).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="nigin">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (15).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <!-- Five -->
+        <div class="block" data-number="ten">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (16).jpg" alt="Image For Game" />
+            </div>
+        </div>
+        <div class="block" data-number="ten">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="imgs/ (16).jpg" alt="Image For Game" />
+            </div>
+        </div>
+    </div>
+    <div class="fall-msg">
+        <p>
+            أسف بس أنت غلطت 20 مره اي ياجدع ذاكرة السمكه دي
+            <button onclick="location.reload();">أضغط هنا والعب تاني بس ركز</button>
+        </p>
+    </div>
+    <div class="copy">
+        <a href="https://wa.me/2001559079068">
+        محمد أبراهيم
+      </a>
+    </div>
+    <audio id="success" src="success.WAV" preload="auto"></audio>
+    <audio id="fail" src="fall.WAV" preload="auto"></audio>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
